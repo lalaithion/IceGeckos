@@ -5,6 +5,8 @@ from flask_wtf import FlaskForm
 from wtforms import StringField, BooleanField
 from wtforms.validators import DataRequired
 
+from meraki import mac_exists
+
 db = {}
 
 
@@ -13,13 +15,17 @@ class User:
     def __init__(self, uname, pword, mac):
         self.username = uname
         self.password = pword
-        self.macaddrs = mac
+        self.macaddr = mac
     
     def __repr__(self):
-        return 'User({username}, {password}, {macaddrs})'.format(**vars(self))
+        return 'User({username}, {password}, {macaddr})'.format(**vars(self))
     
     def try_login(self, password):
-        return self.password == password
+        if mac_exists(self.macaddr):
+            return self.password == password
+        else:
+            return False
+
 
 
 class RegisterForm(FlaskForm):
