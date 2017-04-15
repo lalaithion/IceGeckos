@@ -1,14 +1,15 @@
 <html>
   <head>
     <title>Izaak Made A Website!</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
   </head>
   
   <body>
-    <h1>This is pretty cool</h1>
-    <p>
-      I can just write a goddamn website here? And it will work?
-      
-      {{variable}}
-    </p>
+    <div class="flex-container">
+      <div>
+        {% block content %}
+        {% endblock %}
+      </div>
+    </div>
   </body>
 </html>

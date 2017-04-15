@@ -1,0 +1,11 @@
+{% extends "home.html" %}
+{% block content %}
+  <h1>Login</h1>
+  {{ error }}
+  <form action="" method="post" name="login">
+    {{ form.hidden_tag() }}
+    <p> username: {{ form.uname(size=20) }}   </p>
+    <p> password: {{ form.pword(size=20) }}   </p>
+    <p> <input type="submit" value="Sign In"> </p>
+  </form>
+{% endblock %}
