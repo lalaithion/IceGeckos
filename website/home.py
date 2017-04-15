@@ -1,3 +1,5 @@
+import json
+
 from flask import render_template, request, redirect, url_for
 from website import website
 
@@ -7,7 +9,12 @@ from wtforms.validators import DataRequired
 
 from meraki import mac_exists
 
-db = {}
+db = json.load(open('users.json'))
+db = {k: User(v['uname'], v['pword'], v['mac']) for k, v in db.items()}
+
+def save():
+    data = {k: {'uname': v.username, 'pword': v.password, 'mac': v.macaddr} for k, v in db.items()}
+    json.dump(data, open('users.json', 'w'), indent=2)
 
 
 
@@ -36,6 +43,7 @@ class RegisterForm(FlaskForm):
     def add_user(self):
         user = User(self.uname.data, self.pword.data, self.macad.data)
         db[self.uname.data] = user
+        save()
         return True
 
 

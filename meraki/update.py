@@ -34,5 +34,8 @@ for org in orgs:
                     'device': device,
                 })
 
-with open('clients.json', 'w') as outfile:
-    outfile.write(json.dumps(client_list, indent=4))
+def update():
+    while True:
+        with open('clients.json', 'w') as outfile:
+            outfile.write(json.dumps(client_list, indent=2))
+        time.sleep(60)

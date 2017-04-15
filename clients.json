@@ -1,312 +1,504 @@
 [
-    {
-        "info": {
-            "usage": {
-                "sent": 0.0,
-                "recv": 1.0
-            },
-            "id": "k4645c8",
-            "description": "m0c8ddb1809f2",
-            "mdnsName": null,
-            "dhcpHostname": "m0c8ddb1809f2",
-            "mac": "0c:8d:db:18:09:f2",
-            "ip": "192.168.128.3",
-            "vlan": 1,
-            "switchport": "4"
-        },
-        "org": {
-            "id": 600667600300540369,
-            "name": "DevnetITPHack"
-        },
-        "network": {
-            "id": "L_600667600300542101",
-            "organizationId": "600667600300540369",
-            "name": "CiscoHackathon",
-            "timeZone": "America/Los_Angeles",
-            "tags": null,
-            "type": "combined"
-        },
-        "device": {
-            "lat": 37.4180951010362,
-            "lng": -122.098531723022,
-            "address": "",
-            "lanIp": "192.168.128.4",
-            "serial": "Q2HP-BZZZ-6UY3",
-            "mac": "e0:55:3d:d2:3f:5a",
-            "name": null,
-            "model": "MS220-8P",
-            "networkId": "L_600667600300542101"
-        }
+  {
+    "info": {
+      "usage": {
+        "sent": 0.0,
+        "recv": 25.0
+      },
+      "id": "k373b4d",
+      "description": null,
+      "mdnsName": null,
+      "dhcpHostname": null,
+      "mac": "0c:8d:db:61:5e:38",
+      "ip": "192.168.128.1",
+      "vlan": 1,
+      "switchport": "1"
     },
-    {
-        "info": {
-            "usage": {
-                "sent": 3048.0,
-                "recv": 11865.0
-            },
-            "id": "k373b4d",
-            "description": null,
-            "mdnsName": null,
-            "dhcpHostname": null,
-            "mac": "0c:8d:db:61:5e:38",
-            "ip": "192.168.128.1",
-            "vlan": 1,
-            "switchport": "1"
-        },
-        "org": {
-            "id": 600667600300540369,
-            "name": "DevnetITPHack"
-        },
-        "network": {
-            "id": "L_600667600300542101",
-            "organizationId": "600667600300540369",
-            "name": "CiscoHackathon",
-            "timeZone": "America/Los_Angeles",
-            "tags": null,
-            "type": "combined"
-        },
-        "device": {
-            "lat": 37.4180951010362,
-            "lng": -122.098531723022,
-            "address": "",
-            "lanIp": "192.168.128.2",
-            "serial": "Q2HP-BLC6-LSJF",
-            "mac": "e0:55:3d:d2:38:59",
-            "name": null,
-            "model": "MS220-8P",
-            "networkId": "L_600667600300542101"
-        }
+    "org": {
+      "id": 600667600300540369,
+      "name": "DevnetITPHack"
     },
-    {
-        "info": {
-            "usage": {
-                "sent": 11694.0,
-                "recv": 3181.0
-            },
-            "id": "k4645c8",
-            "description": "m0c8ddb1809f2",
-            "mdnsName": null,
-            "dhcpHostname": "m0c8ddb1809f2",
-            "mac": "0c:8d:db:18:09:f2",
-            "ip": "192.168.128.3",
-            "vlan": 1,
-            "switchport": "4"
-        },
-        "org": {
-            "id": 600667600300540369,
-            "name": "DevnetITPHack"
-        },
-        "network": {
-            "id": "L_600667600300542101",
-            "organizationId": "600667600300540369",
-            "name": "CiscoHackathon",
-            "timeZone": "America/Los_Angeles",
-            "tags": null,
-            "type": "combined"
-        },
-        "device": {
-            "lat": 37.4180951010362,
-            "lng": -122.098531723022,
-            "address": "",
-            "lanIp": "192.168.128.2",
-            "serial": "Q2HP-BLC6-LSJF",
-            "mac": "e0:55:3d:d2:38:59",
-            "name": null,
-            "model": "MS220-8P",
-            "networkId": "L_600667600300542101"
-        }
+    "network": {
+      "id": "L_600667600300542101",
+      "organizationId": "600667600300540369",
+      "name": "CiscoHackathon",
+      "timeZone": "America/Los_Angeles",
+      "tags": null,
+      "type": "combined"
     },
-    {
-        "info": {
-            "usage": {
-                "sent": 1121.0,
-                "recv": 157.0
-            },
-            "id": "kbb1b76",
-            "description": "Akshay-iPhone.local",
-            "mdnsName": "Akshay-iPhone.local",
-            "dhcpHostname": "Akshay-iPhone",
-            "mac": "f0:99:bf:4b:5c:64",
-            "ip": "10.187.27.118",
-            "vlan": ""
-        },
-        "org": {
-            "id": 600667600300540369,
-            "name": "DevnetITPHack"
-        },
-        "network": {
-            "id": "L_600667600300542101",
-            "organizationId": "600667600300540369",
-            "name": "CiscoHackathon",
-            "timeZone": "America/Los_Angeles",
-            "tags": null,
-            "type": "combined"
-        },
-        "device": {
-            "lat": 40.0076,
-            "lng": -105.26184,
-            "address": "Discovery Learning Center, Engineering Dr, Boulder, CO 80302",
-            "lanIp": "192.168.128.3",
-            "serial": "Q2PD-A4T3-UBXP",
-            "mac": "0c:8d:db:18:09:f2",
-            "name": null,
-            "model": "MR33",
-            "networkId": "L_600667600300542101"
-        }
-    },
-    {
-        "info": {
-            "usage": {
-                "sent": 9422.0,
-                "recv": 545.0
-            },
-            "id": "k27d895",
-            "description": "Vidhis-iPhone.local",
-            "mdnsName": "Vidhis-iPhone.local",
-            "dhcpHostname": "Vidhis-iPhone",
-            "mac": "6c:72:e7:06:c3:75",
-            "ip": "10.39.216.149",
-            "vlan": ""
-        },
-        "org": {
-            "id": 600667600300540369,
-            "name": "DevnetITPHack"
-        },
-        "network": {
-            "id": "L_600667600300542101",
-            "organizationId": "600667600300540369",
-            "name": "CiscoHackathon",
-            "timeZone": "America/Los_Angeles",
-            "tags": null,
-            "type": "combined"
-        },
-        "device": {
-            "lat": 40.0076,
-            "lng": -105.26184,
-            "address": "Discovery Learning Center, Engineering Dr, Boulder, CO 80302",
-            "lanIp": null,
-            "serial": "Q2PD-H97C-5GPG",
-            "mac": "0c:8d:db:18:1b:43",
-            "name": null,
-            "model": "MR33",
-            "networkId": "L_600667600300542101"
-        }
-    },
-    {
-        "info": {
-            "usage": {
-                "sent": 54.0,
-                "recv": 74.0
-            },
-            "id": "kba962d",
-            "description": "ciscohackathon-switch-e0553dd23859",
-            "mdnsName": null,
-            "dhcpHostname": "ciscohackathon-switch-e0553dd23859",
-            "mac": "e0:55:3d:d2:38:59",
-            "ip": "192.168.128.2",
-            "vlan": 0
-        },
-        "org": {
-            "id": 600667600300540369,
-            "name": "DevnetITPHack"
-        },
-        "network": {
-            "id": "L_600667600300542101",
-            "organizationId": "600667600300540369",
-            "name": "CiscoHackathon",
-            "timeZone": "America/Los_Angeles",
-            "tags": null,
-            "type": "combined"
-        },
-        "device": {
-            "lat": 37.4180951010362,
-            "lng": -122.098531723022,
-            "address": "",
-            "wan1Ip": "10.242.80.38",
-            "wan2Ip": null,
-            "serial": "Q2KN-8R8H-ET5E",
-            "mac": "0c:8d:db:61:5e:38",
-            "name": null,
-            "model": "MX64",
-            "networkId": "L_600667600300542101"
-        }
-    },
-    {
-        "info": {
-            "usage": {
-                "sent": 52.0,
-                "recv": 60.0
-            },
-            "id": "k36ce8e",
-            "description": "ciscohackathon-switch-e0553dd23f5a",
-            "mdnsName": null,
-            "dhcpHostname": "ciscohackathon-switch-e0553dd23f5a",
-            "mac": "e0:55:3d:d2:3f:5a",
-            "ip": "192.168.128.4",
-            "vlan": 0
-        },
-        "org": {
-            "id": 600667600300540369,
-            "name": "DevnetITPHack"
-        },
-        "network": {
-            "id": "L_600667600300542101",
-            "organizationId": "600667600300540369",
-            "name": "CiscoHackathon",
-            "timeZone": "America/Los_Angeles",
-            "tags": null,
-            "type": "combined"
-        },
-        "device": {
-            "lat": 37.4180951010362,
-            "lng": -122.098531723022,
-            "address": "",
-            "wan1Ip": "10.242.80.38",
-            "wan2Ip": null,
-            "serial": "Q2KN-8R8H-ET5E",
-            "mac": "0c:8d:db:61:5e:38",
-            "name": null,
-            "model": "MX64",
-            "networkId": "L_600667600300542101"
-        }
-    },
-    {
-        "info": {
-            "usage": {
-                "sent": 18091.0,
-                "recv": 5575.0
-            },
-            "id": "k4645c8",
-            "description": "m0c8ddb1809f2",
-            "mdnsName": null,
-            "dhcpHostname": "m0c8ddb1809f2",
-            "mac": "0c:8d:db:18:09:f2",
-            "ip": "192.168.128.3",
-            "vlan": 0
-        },
-        "org": {
-            "id": 600667600300540369,
-            "name": "DevnetITPHack"
-        },
-        "network": {
-            "id": "L_600667600300542101",
-            "organizationId": "600667600300540369",
-            "name": "CiscoHackathon",
-            "timeZone": "America/Los_Angeles",
-            "tags": null,
-            "type": "combined"
-        },
-        "device": {
-            "lat": 37.4180951010362,
-            "lng": -122.098531723022,
-            "address": "",
-            "wan1Ip": "10.242.80.38",
-            "wan2Ip": null,
-            "serial": "Q2KN-8R8H-ET5E",
-            "mac": "0c:8d:db:61:5e:38",
-            "name": null,
-            "model": "MX64",
-            "networkId": "L_600667600300542101"
-        }
+    "device": {
+      "lat": 37.4180951010362,
+      "lng": -122.098531723022,
+      "address": "",
+      "lanIp": "192.168.128.4",
+      "serial": "Q2HP-BZZZ-6UY3",
+      "mac": "e0:55:3d:d2:3f:5a",
+      "name": null,
+      "model": "MS220-8P",
+      "networkId": "L_600667600300542101"
     }
+  },
+  {
+    "info": {
+      "usage": {
+        "sent": 0.0,
+        "recv": 2.0
+      },
+      "id": "k4645c8",
+      "description": "m0c8ddb1809f2",
+      "mdnsName": null,
+      "dhcpHostname": "m0c8ddb1809f2",
+      "mac": "0c:8d:db:18:09:f2",
+      "ip": "192.168.128.3",
+      "vlan": 1,
+      "switchport": "4"
+    },
+    "org": {
+      "id": 600667600300540369,
+      "name": "DevnetITPHack"
+    },
+    "network": {
+      "id": "L_600667600300542101",
+      "organizationId": "600667600300540369",
+      "name": "CiscoHackathon",
+      "timeZone": "America/Los_Angeles",
+      "tags": null,
+      "type": "combined"
+    },
+    "device": {
+      "lat": 37.4180951010362,
+      "lng": -122.098531723022,
+      "address": "",
+      "lanIp": "192.168.128.4",
+      "serial": "Q2HP-BZZZ-6UY3",
+      "mac": "e0:55:3d:d2:3f:5a",
+      "name": null,
+      "model": "MS220-8P",
+      "networkId": "L_600667600300542101"
+    }
+  },
+  {
+    "info": {
+      "usage": {
+        "sent": 86282.0,
+        "recv": 8491.0
+      },
+      "id": "kf25026",
+      "description": "ciscohackathon-appliance-0c8ddb615e38",
+      "mdnsName": null,
+      "dhcpHostname": "ciscohackathon-appliance-0c8ddb615e38",
+      "mac": "0c:8d:db:61:5e:3d",
+      "ip": "10.242.80.38",
+      "vlan": 1,
+      "switchport": "2"
+    },
+    "org": {
+      "id": 600667600300540369,
+      "name": "DevnetITPHack"
+    },
+    "network": {
+      "id": "L_600667600300542101",
+      "organizationId": "600667600300540369",
+      "name": "CiscoHackathon",
+      "timeZone": "America/Los_Angeles",
+      "tags": null,
+      "type": "combined"
+    },
+    "device": {
+      "lat": 37.4180951010362,
+      "lng": -122.098531723022,
+      "address": "",
+      "lanIp": "10.105.124.238",
+      "serial": "Q2HP-5FEJ-RQC9",
+      "mac": "e0:55:3d:d1:c8:1d",
+      "name": null,
+      "model": "MS220-8P",
+      "networkId": "L_600667600300542101"
+    }
+  },
+  {
+    "info": {
+      "usage": {
+        "sent": 371.0,
+        "recv": 6.0
+      },
+      "id": "k1ad01d",
+      "description": "m0c8ddb181b43",
+      "mdnsName": null,
+      "dhcpHostname": "m0c8ddb181b43",
+      "mac": "0c:8d:db:18:1b:43",
+      "ip": "10.128.128.128",
+      "vlan": 1,
+      "switchport": "3"
+    },
+    "org": {
+      "id": 600667600300540369,
+      "name": "DevnetITPHack"
+    },
+    "network": {
+      "id": "L_600667600300542101",
+      "organizationId": "600667600300540369",
+      "name": "CiscoHackathon",
+      "timeZone": "America/Los_Angeles",
+      "tags": null,
+      "type": "combined"
+    },
+    "device": {
+      "lat": 37.4180951010362,
+      "lng": -122.098531723022,
+      "address": "",
+      "lanIp": "10.105.124.238",
+      "serial": "Q2HP-5FEJ-RQC9",
+      "mac": "e0:55:3d:d1:c8:1d",
+      "name": null,
+      "model": "MS220-8P",
+      "networkId": "L_600667600300542101"
+    }
+  },
+  {
+    "info": {
+      "usage": {
+        "sent": 7979.0,
+        "recv": 86291.0
+      },
+      "id": "k4b5340",
+      "description": "m0c8ddb17f819",
+      "mdnsName": null,
+      "dhcpHostname": "m0c8ddb17f819",
+      "mac": "0c:8d:db:17:f8:19",
+      "ip": "10.128.128.128",
+      "vlan": 1,
+      "switchport": "1"
+    },
+    "org": {
+      "id": 600667600300540369,
+      "name": "DevnetITPHack"
+    },
+    "network": {
+      "id": "L_600667600300542101",
+      "organizationId": "600667600300540369",
+      "name": "CiscoHackathon",
+      "timeZone": "America/Los_Angeles",
+      "tags": null,
+      "type": "combined"
+    },
+    "device": {
+      "lat": 37.4180951010362,
+      "lng": -122.098531723022,
+      "address": "",
+      "lanIp": "10.105.124.238",
+      "serial": "Q2HP-5FEJ-RQC9",
+      "mac": "e0:55:3d:d1:c8:1d",
+      "name": null,
+      "model": "MS220-8P",
+      "networkId": "L_600667600300542101"
+    }
+  },
+  {
+    "info": {
+      "usage": {
+        "sent": 70914.0,
+        "recv": 1148.0
+      },
+      "id": "kbb1b76",
+      "description": "Akshay-iPhone.local",
+      "mdnsName": "Akshay-iPhone.local",
+      "dhcpHostname": "Akshay-iPhone",
+      "mac": "f0:99:bf:4b:5c:64",
+      "ip": "10.187.27.118",
+      "vlan": ""
+    },
+    "org": {
+      "id": 600667600300540369,
+      "name": "DevnetITPHack"
+    },
+    "network": {
+      "id": "L_600667600300542101",
+      "organizationId": "600667600300540369",
+      "name": "CiscoHackathon",
+      "timeZone": "America/Los_Angeles",
+      "tags": null,
+      "type": "combined"
+    },
+    "device": {
+      "lat": 40.0076,
+      "lng": -105.26184,
+      "address": "Discovery Learning Center, Engineering Dr, Boulder, CO 80302",
+      "lanIp": "192.168.128.3",
+      "serial": "Q2PD-A4T3-UBXP",
+      "mac": "0c:8d:db:18:09:f2",
+      "name": null,
+      "model": "MR33",
+      "networkId": "L_600667600300542101"
+    }
+  },
+  {
+    "info": {
+      "usage": {
+        "sent": 26.0,
+        "recv": 9.0
+      },
+      "id": "k57d324",
+      "description": "iPhone",
+      "mdnsName": null,
+      "dhcpHostname": "iPhone",
+      "mac": "a0:d7:95:59:64:5b",
+      "ip": "10.87.211.36",
+      "vlan": ""
+    },
+    "org": {
+      "id": 600667600300540369,
+      "name": "DevnetITPHack"
+    },
+    "network": {
+      "id": "L_600667600300542101",
+      "organizationId": "600667600300540369",
+      "name": "CiscoHackathon",
+      "timeZone": "America/Los_Angeles",
+      "tags": null,
+      "type": "combined"
+    },
+    "device": {
+      "lat": 40.0076,
+      "lng": -105.26184,
+      "address": "Discovery Learning Center, Engineering Dr, Boulder, CO 80302",
+      "lanIp": null,
+      "serial": "Q2PD-H97C-5GPG",
+      "mac": "0c:8d:db:18:1b:43",
+      "name": null,
+      "model": "MR33",
+      "networkId": "L_600667600300542101"
+    }
+  },
+  {
+    "info": {
+      "usage": {
+        "sent": 493.0,
+        "recv": 1068.0
+      },
+      "id": "k62edb8",
+      "description": "Vijay.local",
+      "mdnsName": "Vijay.local",
+      "dhcpHostname": "Vijay",
+      "mac": "2c:6e:85:59:a0:3d",
+      "ip": "10.98.237.184",
+      "vlan": ""
+    },
+    "org": {
+      "id": 600667600300540369,
+      "name": "DevnetITPHack"
+    },
+    "network": {
+      "id": "L_600667600300542101",
+      "organizationId": "600667600300540369",
+      "name": "CiscoHackathon",
+      "timeZone": "America/Los_Angeles",
+      "tags": null,
+      "type": "combined"
+    },
+    "device": {
+      "lat": 40.0076,
+      "lng": -105.26184,
+      "address": "Discovery Learning Center, Engineering Dr, Boulder, CO 80302",
+      "lanIp": null,
+      "serial": "Q2PD-H97C-5GPG",
+      "mac": "0c:8d:db:18:1b:43",
+      "name": null,
+      "model": "MR33",
+      "networkId": "L_600667600300542101"
+    }
+  },
+  {
+    "info": {
+      "usage": {
+        "sent": 26.0,
+        "recv": 32.0
+      },
+      "id": "kba962d",
+      "description": "ciscohackathon-switch-e0553dd23859",
+      "mdnsName": null,
+      "dhcpHostname": "ciscohackathon-switch-e0553dd23859",
+      "mac": "e0:55:3d:d2:38:59",
+      "ip": "192.168.128.2",
+      "vlan": 0
+    },
+    "org": {
+      "id": 600667600300540369,
+      "name": "DevnetITPHack"
+    },
+    "network": {
+      "id": "L_600667600300542101",
+      "organizationId": "600667600300540369",
+      "name": "CiscoHackathon",
+      "timeZone": "America/Los_Angeles",
+      "tags": null,
+      "type": "combined"
+    },
+    "device": {
+      "lat": 37.4180951010362,
+      "lng": -122.098531723022,
+      "address": "",
+      "wan1Ip": "10.242.80.38",
+      "wan2Ip": null,
+      "serial": "Q2KN-8R8H-ET5E",
+      "mac": "0c:8d:db:61:5e:38",
+      "name": null,
+      "model": "MX64",
+      "networkId": "L_600667600300542101"
+    }
+  },
+  {
+    "info": {
+      "usage": {
+        "sent": 23.0,
+        "recv": 28.0
+      },
+      "id": "k36ce8e",
+      "description": "ciscohackathon-switch-e0553dd23f5a",
+      "mdnsName": null,
+      "dhcpHostname": "ciscohackathon-switch-e0553dd23f5a",
+      "mac": "e0:55:3d:d2:3f:5a",
+      "ip": "192.168.128.4",
+      "vlan": 0
+    },
+    "org": {
+      "id": 600667600300540369,
+      "name": "DevnetITPHack"
+    },
+    "network": {
+      "id": "L_600667600300542101",
+      "organizationId": "600667600300540369",
+      "name": "CiscoHackathon",
+      "timeZone": "America/Los_Angeles",
+      "tags": null,
+      "type": "combined"
+    },
+    "device": {
+      "lat": 37.4180951010362,
+      "lng": -122.098531723022,
+      "address": "",
+      "wan1Ip": "10.242.80.38",
+      "wan2Ip": null,
+      "serial": "Q2KN-8R8H-ET5E",
+      "mac": "0c:8d:db:61:5e:38",
+      "name": null,
+      "model": "MX64",
+      "networkId": "L_600667600300542101"
+    }
+  },
+  {
+    "info": {
+      "usage": {
+        "sent": 62123.0,
+        "recv": 3262.0
+      },
+      "id": "k4645c8",
+      "description": "m0c8ddb1809f2",
+      "mdnsName": null,
+      "dhcpHostname": "m0c8ddb1809f2",
+      "mac": "0c:8d:db:18:09:f2",
+      "ip": "192.168.128.3",
+      "vlan": 0
+    },
+    "org": {
+      "id": 600667600300540369,
+      "name": "DevnetITPHack"
+    },
+    "network": {
+      "id": "L_600667600300542101",
+      "organizationId": "600667600300540369",
+      "name": "CiscoHackathon",
+      "timeZone": "America/Los_Angeles",
+      "tags": null,
+      "type": "combined"
+    },
+    "device": {
+      "lat": 37.4180951010362,
+      "lng": -122.098531723022,
+      "address": "",
+      "wan1Ip": "10.242.80.38",
+      "wan2Ip": null,
+      "serial": "Q2KN-8R8H-ET5E",
+      "mac": "0c:8d:db:61:5e:38",
+      "name": null,
+      "model": "MX64",
+      "networkId": "L_600667600300542101"
+    }
+  },
+  {
+    "info": {
+      "usage": {
+        "sent": 66.0,
+        "recv": 60.0
+      },
+      "id": "k697cee",
+      "description": "ciscohackathon-switch-e0553dd1c81d",
+      "mdnsName": null,
+      "dhcpHostname": "ciscohackathon-switch-e0553dd1c81d",
+      "mac": "e0:55:3d:d1:c8:1d",
+      "ip": "10.105.124.238",
+      "vlan": ""
+    },
+    "org": {
+      "id": 600667600300540369,
+      "name": "DevnetITPHack"
+    },
+    "network": {
+      "id": "N_600667600300569434",
+      "organizationId": "600667600300540369",
+      "name": "CUBITPMesh",
+      "timeZone": "America/Los_Angeles",
+      "tags": null,
+      "type": "wireless"
+    },
+    "device": {
+      "lat": 37.4180951010362,
+      "lng": -122.098531723022,
+      "address": "",
+      "lanIp": null,
+      "serial": "Q2PD-2SUE-H46R",
+      "mac": "0c:8d:db:17:f8:19",
+      "name": null,
+      "model": "MR33",
+      "networkId": "N_600667600300569434"
+    }
+  },
+  {
+    "info": {
+      "usage": {
+        "sent": 83868.0,
+        "recv": 5024.0
+      },
+      "id": "kf25026",
+      "description": "ciscohackathon-appliance-0c8ddb615e38",
+      "mdnsName": null,
+      "dhcpHostname": "ciscohackathon-appliance-0c8ddb615e38",
+      "mac": "0c:8d:db:61:5e:3d",
+      "ip": "10.242.80.38",
+      "vlan": ""
+    },
+    "org": {
+      "id": 600667600300540369,
+      "name": "DevnetITPHack"
+    },
+    "network": {
+      "id": "N_600667600300569434",
+      "organizationId": "600667600300540369",
+      "name": "CUBITPMesh",
+      "timeZone": "America/Los_Angeles",
+      "tags": null,
+      "type": "wireless"
+    },
+    "device": {
+      "lat": 37.4180951010362,
+      "lng": -122.098531723022,
+      "address": "",
+      "lanIp": null,
+      "serial": "Q2PD-2SUE-H46R",
+      "mac": "0c:8d:db:17:f8:19",
+      "name": null,
+      "model": "MR33",
+      "networkId": "N_600667600300569434"
+    }
+  }
 ]

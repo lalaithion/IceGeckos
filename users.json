@@ -1,0 +1,12 @@
+{
+  "izaak": {
+    "uname": "izaak",
+    "pword": "hi",
+    "mac": "0c:8d:db:61:5e:38"
+  },
+  "other": {
+    "uname": "other",
+    "pword": "person",
+    "mac": "0c:8d:ff:61:5e:99"
+  }
+}
