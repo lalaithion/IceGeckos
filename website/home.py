@@ -41,7 +41,7 @@ def save():
 
 class RegisterForm(FlaskForm):
     uname = StringField('Username', validators=[DataRequired()])
-    pword = StringField('Password', validators=[DataRequired()])
+    pword = PasswordField('Password', validators=[DataRequired()])
     macad = StringField('MAC Address', validators=[DataRequired()])
     
     def add_user(self):
@@ -54,7 +54,7 @@ class RegisterForm(FlaskForm):
 
 class LoginForm(FlaskForm):
     uname = StringField('Username', validators=[DataRequired()])
-    pword = StringField('Password', validators=[DataRequired()])
+    pword = PasswordField('Password', validators=[DataRequired()])
 
     def check_login(self):
         try:
