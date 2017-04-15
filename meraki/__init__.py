@@ -1,9 +1,8 @@
 import json
 
-def macExists(mac):
-	with open('clients.json' as client_list):
-
-		for client in json.loads(client_list):
-			if client['info']['mac'] == mac:
-				return True
-	return False
+def mac_exists(mac):
+    with open('meraki/clients.json') as client_list:
+        for client in json.load(client_list):
+            if client['info']['mac'] == mac:
+                return True
+    return False
