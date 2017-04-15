@@ -9,10 +9,6 @@ from wtforms.validators import DataRequired
 
 from meraki import mac_exists
 
-db = json.load(open('users.json'))
-db = {k: User(v['uname'], v['pword'], v['mac']) for k, v in db.items()}
-
-
 
 class User:
     def __init__(self, uname, pword, mac):
@@ -30,6 +26,9 @@ class User:
             return False
 
 
+
+db = json.load(open('users.json'))
+db = {k: User(v['uname'], v['pword'], v['mac']) for k, v in db.items()}
 
 def save():
     data = {k: {'uname': v.username, 'pword': v.password, 'mac': v.macaddr} for k, v in db.items()}
