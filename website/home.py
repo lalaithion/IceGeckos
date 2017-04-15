@@ -22,10 +22,10 @@ class User:
     
     def try_login(self, password):
         if mac_exists(self.macaddr):
-            global error
-            error = "mac"
             return self.password == password
         else:
+            global error
+            error = "mac"
             return False
 
 
@@ -78,7 +78,7 @@ def index():
             global error
             if error == 'mac':
                 error = ''
-                return render_template('login.html', form=form, error='Your MAC Address needs to be in the Network')
+                return render_template('login.html', form=form, error='You must log in from within the network')
             else:
                 return render_template('login.html', form=form, error='Error logging in')
             
