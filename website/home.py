@@ -1,4 +1,6 @@
 import json
+import hashlib
+import base64
 
 from flask import render_template, request, redirect, url_for
 from website import website
@@ -11,10 +13,15 @@ from meraki import mac_exists
 
 error = ''
 
+def phash(s):
+    sha = hashlib.sha256()
+    sha.update(s.encode())
+    return str(base64.b64encode(sha.digest()))
+
 class User:
     def __init__(self, uname, pword, mac):
         self.username = uname
-        self.password = pword
+        self.password = phash(pword)
         self.macaddr = mac
     
     def __repr__(self):
@@ -22,7 +29,7 @@ class User:
     
     def try_login(self, password):
         if mac_exists(self.macaddr):
-            return self.password == password
+            return self.password == phash(password)
         else:
             global error
             error = "mac"
