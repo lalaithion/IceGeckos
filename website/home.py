@@ -12,10 +12,6 @@ from meraki import mac_exists
 db = json.load(open('users.json'))
 db = {k: User(v['uname'], v['pword'], v['mac']) for k, v in db.items()}
 
-def save():
-    data = {k: {'uname': v.username, 'pword': v.password, 'mac': v.macaddr} for k, v in db.items()}
-    json.dump(data, open('users.json', 'w'), indent=2)
-
 
 
 class User:
@@ -32,6 +28,12 @@ class User:
             return self.password == password
         else:
             return False
+
+
+
+def save():
+    data = {k: {'uname': v.username, 'pword': v.password, 'mac': v.macaddr} for k, v in db.items()}
+    json.dump(data, open('users.json', 'w'), indent=2)
 
 
 
