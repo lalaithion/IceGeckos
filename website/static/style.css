@@ -20,3 +20,11 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+#login {
+  style=float: left; margin: 15px;
+}
+
+#create {
+  style=float: left; margin: 15px;
+}
