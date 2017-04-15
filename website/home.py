@@ -9,6 +9,7 @@ from wtforms.validators import DataRequired
 
 from meraki import mac_exists
 
+error = ''
 
 class User:
     def __init__(self, uname, pword, mac):
@@ -21,6 +22,8 @@ class User:
     
     def try_login(self, password):
         if mac_exists(self.macaddr):
+            global error
+            error = "mac"
             return self.password == password
         else:
             return False
@@ -72,7 +75,12 @@ def index():
         if form.check_login():
             return render_template('account.html', username=form.uname.data)
         else:
-            return render_template('login.html', form=form, error='Error logging in')
+            global error
+            if error == 'mac':
+                error = ''
+                return render_template('login.html', form=form, error='Your MAC Address needs to be in the Network')
+            else:
+                return render_template('login.html', form=form, error='Error logging in')
             
     return render_template('login.html', form=form, error='')
 
