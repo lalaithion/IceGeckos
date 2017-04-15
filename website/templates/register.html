@@ -1,12 +1,20 @@
 {% extends "home.html" %}
 {% block content %}
-  <h1>Register</h1>
-  <p class="error">{{ error }}</p>
-  <form action="" method="post" name="login">
-    {{ form.hidden_tag() }}
-    <p> username: {{ form.uname(size=20) }}      </p>
-    <p> password: {{ form.pword(size=20) }}      </p>
-    <p> mac address: {{ form.macad(size=20) }}   </p>
-    <p> <input type="submit" value="Register">    </p>
-  </form>
+  <div class='item'>
+    <h1>Register</h1>
+    <p class="error">{{ error }}</p>
+    <form action="" method="post" name="login">
+      {{ form.hidden_tag() }}
+      <p> username: {{ form.uname(size=20) }}      </p>
+      <p> password: {{ form.pword(size=20) }}      </p>
+      <p> mac address: {{ form.macad(size=20) }}   </p>
+      <p> <input type="submit" value="Register">    </p>
+    </form>
+  </div>
+  <div class='item'>
+    <h1>Login</h1>
+    <form action="/">
+      <input type="submit" value="Login" />
+    </form>
+  </div>
 {% endblock %}

@@ -1,3 +1,5 @@
+import time
+
 import requests
 import json
 
@@ -32,6 +34,5 @@ for org in orgs:
                     'device': device,
                 })
 
-def update():
-    with open('clients.json', 'w') as outfile:
-        outfile.write(json.dumps(client_list))
+with open('clients.json', 'w') as outfile:
+    outfile.write(json.dumps(client_list, indent=4))

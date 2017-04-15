@@ -1,6 +1,6 @@
 {% extends "home.html" %}
 {% block content %}
-  <div id='login'>
+  <div class='item'>
     <h1>Login</h1>
     <p class="error">{{ error }}</p>
     <form action="" method="post" name="login">
@@ -10,7 +10,7 @@
       <p> <input type="submit" value="Sign In"/> </p>
     </form>
   </div>
-  <div id='create'>
+  <div class='item'>
     <h1>Create Account</h1>
     <form action="/register">
       <input type="submit" value="Create account" />
