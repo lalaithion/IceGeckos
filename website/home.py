@@ -4,7 +4,7 @@ from flask import render_template, request, redirect, url_for
 from website import website
 
 from flask_wtf import FlaskForm
-from wtforms import StringField, BooleanField
+from wtforms import StringField, BooleanField, PasswordField
 from wtforms.validators import DataRequired
 
 from meraki import mac_exists
